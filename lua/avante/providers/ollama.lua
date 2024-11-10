@@ -31,9 +31,8 @@ local P = require("avante.providers")
 ---@class AvanteProviderFunctor
 local M = {}
 
-M.api_key_name = "OPENAI_API_KEY"
-M.use_xml_format = true
-
+M.api_key_name = "OLLAMA_API_KEY"
+-- M.use_xml_format = true
 
 M.role_map = {
   user = "user",
